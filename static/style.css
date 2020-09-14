@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Lora&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#navbar{
+    background-color:#514c4c;;
+    padding: 8px 5px;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+}
+#navbar ul{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+    
+}
+#logo img{
+    height: 28px;
+    filter: invert(1);
+    
+}
+
+#navbar li{
+    list-style: none;
+
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 13px 11px;
+    font-size: 24px;
+}
+
+#navbar li a:hover {
+    color: red;
+   
+}
+
+#forIntro{
+    height: 422px;
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 55px;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    background: center / cover no-repeat url("/static/bg.jpg");
+   
+    
+}
+#forMission{
+    height: 300px;
+    background-color: #6e6e75;
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+
+  
+}
+#forMission h2{
+    margin: 0 44%;
+    padding: 6px 6px;
+}
+
+.card{
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 29px;
+    width: 22%;
+    height: 218px;
+    margin: 12px 12px;
+    padding: 12px;
+    background-color: #807e7c;
+   
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 180px;
+}
+.card-img img{
+    height: inherit;
+}
+#forSponsors{
+    height: 300px;
+    background-color: #38383b;
+    color: white;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    padding: 8px 4px;
+}
+.spon-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.spon-img img{
+    padding: 11px 23px;
+    height: 200px;
+    width: 200px;
+}
+#footer{
+    height: 41px;
+    color: #f4e6e6;
+    text-align: center;
+    padding: 8px 4px;
+    font-weight: 700;
+    background-color: #070000;
+}

@@ -1,0 +1,32 @@
+body{
+    background-color: #99988c;
+   
+}
+
+h1 {
+    color: #171717;
+    text-align: center;
+    padding: 7px 5px;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.myinput {
+    padding: 22px 170px;
+    margin: 4px 29px;
+}
+
+.btn {
+    margin: 8px 8px;
+    padding: 4px 21px;
+}
+
+#adbtn{
+    margin-bottom: 240px;
+}
